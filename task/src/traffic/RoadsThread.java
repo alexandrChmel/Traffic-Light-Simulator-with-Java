@@ -39,7 +39,6 @@ public class RoadsThread extends Thread{
                             roadsTime.add(roadsTime.getLast() + interval);
                             break;
                         }
-
                     }
                 }
 

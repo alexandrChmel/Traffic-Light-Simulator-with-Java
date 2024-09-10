@@ -1,12 +1,5 @@
 package traffic;
-
-import com.sun.source.doctree.SystemPropertyTree;
-
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Scanner;
-
 public class QueueThread extends RoadsThread{
     String state = "idle";
     public void changeState(String newState) {
@@ -38,7 +31,7 @@ public class QueueThread extends RoadsThread{
                     throw new RuntimeException(e);
                 }
             }
-            int systemIteration = 0;
+
             while (state.equals("system")){
                 cleanDisplay();
                 System.out.printf("""
@@ -64,11 +57,8 @@ public class QueueThread extends RoadsThread{
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                systemIteration++;
             }
         }
-
-
     }
     public static void cleanDisplay() {
         try {

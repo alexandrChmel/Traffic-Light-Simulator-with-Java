@@ -1,12 +1,8 @@
 package traffic;
-
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Main {
-  public static int roadsCount = 0;
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -57,25 +53,20 @@ public class Main {
       printMenu();
       String action = scanner.nextLine();
 
-
       switch (action) {
-        case "1":
-          addRoad(scanner, queueThread, maxRoadsCount, roadsThread);
-          break;
-        case "2":
-          deleteRoad(roadsThread);
-          break;
-        case "3":
+        case "1" -> addRoad(scanner, queueThread, maxRoadsCount, roadsThread);
+        case "2" -> deleteRoad(roadsThread);
+        case "3" -> {
           queueThread.changeState("system");
           openSystem(queueThread, scanner);
-          break;
-        case "0":
+        }
+        case "0" -> {
           System.out.println("Bye!");
           queueThread.changeState("quit");
           roadsThread.setState("quit");
           return;
-        default:
-          System.out.print("Incorrect option\n");
+        }
+        default -> System.out.print("Incorrect option\n");
       }
 
         scanner.nextLine();
