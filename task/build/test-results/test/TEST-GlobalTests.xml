@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GlobalTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-10T15:13:51" hostname="DESKTOP-51SEVMP" time="65.312">
+  <properties/>
+  <testcase name="start" classname="GlobalTests" time="65.312"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 5
+Input the interval: 
+> 3
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 2?[0m
+?[1;31m
+Start test 3?[0m
+?[1;31m
+Start test 4?[0m
+?[1;31m
+Start test 5?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> asd
+Error! Incorrect Input. Try again: 
+> -1
+Error! Incorrect Input. Try again: 
+> 6-
+Error! Incorrect Input. Try again: 
+> 0
+Error! Incorrect Input. Try again: 
+> Hello world!
+Error! Incorrect Input. Try again: 
+> 5
+Input the interval: 
+> asd
+Error! Incorrect Input. Try again: 
+> -1
+Error! Incorrect Input. Try again: 
+> 6-
+Error! Incorrect Input. Try again: 
+> 0
+Error! Incorrect Input. Try again: 
+> Hello world!
+Error! Incorrect Input. Try again: 
+> 5
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 6?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 5
+Input the interval: 
+> 3
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> asd
+Incorrect option
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> -1
+Incorrect option
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 6-
+Incorrect option
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> Hello world!
+Incorrect option
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 4
+Incorrect option
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 5
+Incorrect option
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 7?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 1
+Input the interval: 
+> 1
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+
+! Press "Enter" to open menu !
+! 1s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+
+! Press "Enter" to open menu !
+! 2s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+
+! Press "Enter" to open menu !
+! 3s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 4s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 8?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 24367587
+Input the interval: 
+> 24367587
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 24367587 !
+! Interval: 24367587 !
+
+
+! Press "Enter" to open menu !
+! 1s. have passed since system startup !
+! Number of roads: 24367587 !
+! Interval: 24367587 !
+
+
+! Press "Enter" to open menu !
+! 2s. have passed since system startup !
+! Number of roads: 24367587 !
+! Interval: 24367587 !
+
+
+! Press "Enter" to open menu !
+! 3s. have passed since system startup !
+! Number of roads: 24367587 !
+! Interval: 24367587 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 4s. have passed since system startup !
+! Number of roads: 24367587 !
+! Interval: 24367587 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 9?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 1
+Input the interval: 
+> 1
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+queue is empty
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_2
+queue is full
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_1 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_4
+n3w_v3ry_unu5u4l_r04d_n4m3_4 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 10?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 2
+Input the interval: 
+> 2
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+queue is empty
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_2
+n3w_v3ry_unu5u4l_r04d_n4m3_2 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_3
+queue is full
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_1 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_2 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+queue is empty
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_7
+n3w_v3ry_unu5u4l_r04d_n4m3_7 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 11?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 1
+Input the interval: 
+> 1
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+queue is empty
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 1s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_2
+queue is full
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 2s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_1 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 3s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_4
+n3w_v3ry_unu5u4l_r04d_n4m3_4 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 4s. have passed since system startup !
+! Number of roads: 1 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_4?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 12?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 2
+Input the interval: 
+> 2
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+queue is empty
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 1s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_2
+n3w_v3ry_unu5u4l_r04d_n4m3_2 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 2s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[32m will be open for 2s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_3
+queue is full
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 3s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_1 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 4s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[32m will be open for 2s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_2 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 5s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+queue is empty
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 6s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_7
+n3w_v3ry_unu5u4l_r04d_n4m3_7 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 7s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_7?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 13?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 2
+Input the interval: 
+> 2
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_0
+n3w_v3ry_unu5u4l_r04d_n4m3_0 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 2s.?[0m
+
+! Press "Enter" to open menu !
+! 1s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+
+! Press "Enter" to open menu !
+! 2s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 2s.?[0m
+
+! Press "Enter" to open menu !
+! 3s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+! 4s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 2s.?[0m
+
+! Press "Enter" to open menu !
+! 5s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 14?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 2
+Input the interval: 
+> 1
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_0
+n3w_v3ry_unu5u4l_r04d_n4m3_0 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+
+! Press "Enter" to open menu !
+! 1s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+! 2s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 15?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 3
+Input the interval: 
+> 3
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_0
+n3w_v3ry_unu5u4l_r04d_n4m3_0 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_2
+n3w_v3ry_unu5u4l_r04d_n4m3_2 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 3s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 3s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 6s.?[0m
+
+! Press "Enter" to open menu !
+! 1s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 5s.?[0m
+
+! Press "Enter" to open menu !
+! 2s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 4s.?[0m
+
+! Press "Enter" to open menu !
+! 3s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 6s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 3s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 3s.?[0m
+
+! Press "Enter" to open menu !
+! 4s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 5s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 2s.?[0m
+
+! Press "Enter" to open menu !
+! 5s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 4s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 1s.?[0m
+
+! Press "Enter" to open menu !
+! 6s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 3s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 6s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[32m will be open for 3s.?[0m
+
+! Press "Enter" to open menu !
+! 7s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 5s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[32m will be open for 2s.?[0m
+
+! Press "Enter" to open menu !
+! 8s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 4s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+! 9s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 3s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 3s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 6s.?[0m
+
+! Press "Enter" to open menu !
+! 10s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 5s.?[0m
+
+! Press "Enter" to open menu !
+! 11s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 4s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 16?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 3
+Input the interval: 
+> 1
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_0
+n3w_v3ry_unu5u4l_r04d_n4m3_0 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_2
+n3w_v3ry_unu5u4l_r04d_n4m3_2 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 2s.?[0m
+
+! Press "Enter" to open menu !
+! 1s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 1s.?[0m
+
+! Press "Enter" to open menu !
+! 2s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+! 3s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 1 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 2s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 17?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 2
+Input the interval: 
+> 2
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_0
+n3w_v3ry_unu5u4l_r04d_n4m3_0 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 2s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 1s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 2s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 2s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_0 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 3s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 1s.?[0m
+
+! Press "Enter" to open menu !
+! 4s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 2s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_1 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 5s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+
+! Press "Enter" to open menu !
+! 6s. have passed since system startup !
+! Number of roads: 2 !
+! Interval: 2 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+?[1;31m
+Start test 18?[0m
+Welcome to the traffic management system!
+Input the number of roads: 
+> 3
+Input the interval: 
+> 3
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_0
+n3w_v3ry_unu5u4l_r04d_n4m3_0 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 0s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 3s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_1
+n3w_v3ry_unu5u4l_r04d_n4m3_1 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 1s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 2s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 1
+Input road name: > n3w_v3ry_unu5u4l_r04d_n4m3_2
+n3w_v3ry_unu5u4l_r04d_n4m3_2 added!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 2s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[31m will be closed for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 4s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 3s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_0?[31m will be closed for 6s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 3s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 3s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_0 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 4s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 2s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 2s.?[0m
+
+! Press "Enter" to open menu !
+! 5s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_1?[32m will be open for 1s.?[0m
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[31m will be closed for 1s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_1 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 6s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[32m will be open for 3s.?[0m
+
+! Press "Enter" to open menu !
+! 7s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+n3w_v3ry_unu5u4l_r04d_n4m3_2?[32m will be open for 2s.?[0m
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 2
+n3w_v3ry_unu5u4l_r04d_n4m3_2 deleted!
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 3
+! 8s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+
+! Press "Enter" to open menu !
+! 9s. have passed since system startup !
+! Number of roads: 3 !
+! Interval: 3 !
+
+
+! Press "Enter" to open menu !
+> 
+Menu:
+1. Add
+2. Delete
+3. System
+0. Quit
+> 0
+Bye!
+]]></system-out>
+  <system-err><![CDATA[?[0;34mException in thread "QueueThread" Exception in thread "Thread-3" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mjava.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:38)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:36)
+?[0;34mException in thread "QueueThread" Exception in thread "Thread-5" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:38)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:36)
+?[0;34mjava.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mException in thread "QueueThread" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:38)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:36)
+?[0;34mException in thread "Thread-7" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mException in thread "QueueThread" Exception in thread "Thread-13" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:38)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:36)
+?[0;34mjava.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mException in thread "Thread-15" Exception in thread "QueueThread" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mjava.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:38)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:36)
+?[0;34mException in thread "QueueThread" Exception in thread "Thread-17" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:65)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:63)
+?[0;34mjava.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mException in thread "QueueThread" Exception in thread "Thread-19" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:65)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:63)
+?[0;34mjava.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mException in thread "QueueThread" Exception in thread "Thread-21" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:65)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:63)
+?[0;34mjava.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mException in thread "QueueThread" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:65)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:63)
+?[0;34mException in thread "Thread-23" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+E?[0;34mxception in thread "QueueThread" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:65)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:63)
+?[0;34mException in thread "Thread-25" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mException in thread "QueueThread" Exception in thread "Thread-27" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:65)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:63)
+?[0;34mjava.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mException in thread "QueueThread" Exception in thread "Thread-29" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:65)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:63)
+?[0;34mjava.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:73)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.RoadsThread.run(RoadsThread.java:71)
+?[0;34mException in thread "QueueThread" java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:65)
+?[0m?[0;34mCaused by: java.lang.InterruptedException: sleep interrupted
+?[0m?[0;34m	at java.base/java.lang.Thread.sleep(Native Method)
+?[0m?[0;34m	at traffic.QueueThread.run(QueueThread.java:63)
+java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+	at traffic.RoadsThread.run(RoadsThread.java:73)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at traffic.RoadsThread.run(RoadsThread.java:71)
+]]></system-err>
+</testsuite>

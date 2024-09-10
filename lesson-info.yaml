@@ -1,0 +1,9 @@
+type: framework
+content:
+  - Open the control panel
+  - Set up the traffic light
+  - "Oops, wrong button"
+  - Like a clockwork
+  - Over and over again
+  - "Red, yellow, green"
+current_task: 5

@@ -1,0 +1,85 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>What if users didn't get enough sleep? All night they controlled the movement of imaginary roads and in the morning, struggling with sleep and misclicks, enter the incorrect parameters. The system should handle wrong input and print appropriate feedback.</p>
+<p>In this stage, let's expand our program with error handling and some visual improvements.</p>
+<p>The number of roads and intervals at which the roads should open/close should be positive integer values (note, that <code class="java">0</code> is not a positive value), so if a user provided any other input, our system should print an error that contains the <code class="java">Incorrect input</code> and <code class="java">Try again</code> substrings.</p>
+<p>The selected option in the menu should be either <code class="java">0</code>, <code class="java">1</code>, <code class="java">2</code> or <code class="java">3</code>, so if a user made a mistake, our system should print the <code class="java">Incorrect option</code> feedback.</p>
+<p>To make the output of our program more convenient, we can clear the previous output after each menu option is executed. Due to the cross-platform nature of Java, clearing the console output can be complicated. You can use this snippet to remove the console output.</p>
+<pre><code class="java">try {
+  var clearCommand = System.getProperty("os.name").contains("Windows")
+          ? new ProcessBuilder("cmd", "/c", "cls")
+          : new ProcessBuilder("clear");
+  clearCommand.inheritIO().start().waitFor();
+}
+catch (IOException | InterruptedException e) {}</code></pre>
+<p>However, it would be difficult for users to get familiar with the result of the execution before the information is cleared, so after each operation, the program must wait for a new line to be entered before the next iteration.</p>
+<p><strong>Note:</strong> Clearing won't work in IntelliJ IDEA console. For that to show up you'll need to run a solution from a terminal.</p>
+<p></p><div class="alert alert-warning">We won't test how you clear the console. If you choose to display the output as solid text, make sure that your program still waits for a new line after option execution.</div>
+<h5 id="objectives">Objectives</h5>
+<p>To complete this stage, your program must comply with the following requirements:</p>
+<ol>
+<li>If the provided input for the number of roads or interval is not a positive integer value, the program should print a line, containing <code class="java">Incorrect input</code> and <code class="java">again</code> substrings, followed by a new input.</li>
+<li>If the chosen option is something other than <code class="java">0</code>, <code class="java">1</code>, <code class="java">2</code>, or <code class="java">3</code>, the program should output an <code class="java">Incorrect option</code> feedback.</li>
+<li>Modify the infinite loop so that when the result of option execution is shown, the program requires any input before the next iteration.</li>
+</ol>
+<h5 id="example">Example</h5>
+<p></p><div class="alert alert-primary">From this stage and beyond, the example will contain the gif representation of program running and an attached transcription block that contains the most important information. Text that starts with <code class="java">//</code> is a comment, the greater-than symbol followed by a space <code class="java">&gt; </code> represents the user input.</div>
+<p><strong> Example: </strong></p>
+<p><picture><img alt="traffic lights management menu" height="1080" name="Stage3.gif" src="https://ucarecdn.com/97afab54-b114-4639-ae5a-e2bb64fb21f7/" width="1920"/></picture></p>
+<details><summary>Transcription</summary>
+<pre><code class="language-no-highlight">Welcome to the traffic management system!
+Input the number of roads: &gt; -1
+Error! Incorrect Input. Try again: &gt; Hello
+Error! Incorrect Input. Try again: &gt; 0
+Error! Incorrect Input. Try again: &gt; 5
+Input the interval: &gt; -5
+Error! Incorrect Input. Try again: &gt; World
+Error! Incorrect Input. Try again: &gt; 0
+Error! Incorrect Input. Try again: &gt; 3
+// Output cleared
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 4
+Incorrect option
+&gt;
+// Output cleared
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; -1
+Incorrect option
+&gt;
+// Output cleared
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; Hello world
+Incorrect option
+&gt;
+// Output cleared
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 2
+Road deleted
+&gt;
+// Output cleared
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 0
+Bye!</code></pre>
+</details>
+
+</div>

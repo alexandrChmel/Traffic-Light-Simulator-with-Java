@@ -1,0 +1,242 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>Expand the created stopwatch into a road management system. Implement the circular queue that contains roads and add functionality to the remaining options in the menu.</p>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, we will add functionality to the <code class="java">Add road</code> and the <code class="java">Delete road</code> options. Expand the <code class="java">QueueThread</code> system by implementing a circular queue, where the maximum number of roads is the value provided in users' settings. </p>
+<p>When the user selects <code class="java">1</code> as an option, print a line containing the <code class="java">input</code> substring, followed by an input for a new element.</p>
+<ul>
+<li>If the queue is full, the program should inform the user about that with the <code class="java">queue is full</code> substring</li>
+<li>Otherwise, add this element to the end of a queue and inform users with the <code class="java">add</code> substring and the element's name</li>
+</ul>
+<p>When the user selects <code class="java">2</code> as an option:</p>
+<ul>
+<li>If the queue is empty, the program should inform users with the <code class="java">queue is empty</code> substring</li>
+<li>Otherwise, delete the element from the start of the queue and inform users with the <code class="java">delete</code> substring and the element's name.</li>
+</ul>
+<p>Also, expand the output of the system information. If the queue is not empty, print all the elements' names line by line in the queue from front to rear, just like in the example.</p>
+<h5 id="examples">Examples</h5>
+<p><strong>Example 1</strong>:</p>
+<p><picture><img alt="traffic lights road management" height="1080" name="Stage5.gif" src="https://ucarecdn.com/7999d1b5-62f8-43f6-9d31-87d4023be82b/" width="1920"/></picture></p>
+<details><summary>Transcription</summary>
+<pre><code class="language-no-highlight"># To shrink the transcription each thread's output sequence will be collapsed like this:
+# ! Xs. have passed since system startup !
+# ! Number of roads: 5 !
+# ! Interval: 3 !
+# *roads*
+# ! Press "Enter" to open menu !
+
+Welcome to the traffic management system!
+Input the number of roads: &gt; 5
+Input the interval: &gt; 3
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 1
+Input road name: &gt; RoadA
+RoadA Added!
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 3
+! Xs. have passed since system startup !
+! Number of roads: 5 !
+! Interval: 3 !
+
+RoadA
+
+! Press "Enter" to open menu !
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 1
+Input road name: &gt; RoadB
+RoadB Added!
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 3
+! Xs. have passed since system startup !
+! Number of roads: 5 !
+! Interval: 3 !
+
+RoadA
+RoadB
+
+! Press "Enter" to open menu !
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 1
+Input road name: &gt; RoadC
+RoadC Added!
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 3
+! Xs. have passed since system startup !
+! Number of roads: 5 !
+! Interval: 3 !
+
+RoadA
+RoadB
+RoadC
+
+! Press "Enter" to open menu !
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 2
+RoadA deleted!
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 3
+! Xs. have passed since system startup !
+! Number of roads: 5 !
+! Interval: 3 !
+
+RoadB
+RoadC
+
+! Press "Enter" to open menu !
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 1
+Input road name: &gt; RoadD
+RoadD Added!
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 2
+RoadB deleted!
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 2
+RoadC deleted!
+&gt;
+&gt; 3
+! Xs. have passed since system startup !
+! Number of roads: 5 !
+! Interval: 3 !
+
+RoadD
+
+! Press "Enter" to open menu !
+&gt;
+Menu:
+1. Add road
+2. Delete road
+3. Open system
+0. Quit
+&gt; 0
+Bye!</code></pre>
+</details>
+<p><strong>Example 2</strong>:</p>
+<p><picture><img alt="" height="1080" name="stage5addJV.gif" src="https://ucarecdn.com/a2649044-ac2f-4e11-b087-cf0724f000d2/" width="1920"/></picture></p>
+<details><summary>Transcription</summary>
+<pre><code class="language-no-highlight"># To shrink the output each thread's message sequence will be collapsed like this:
+# ! THREAD_INFO_HEADER !
+# 
+# ! THREAD_INFO_FOOTER !
+
+# And each menu output will be collapsed like this:
+# ! MENU_INFO !
+
+Welcome to the traffic management system!
+Input the number of roads: &gt; 2
+Input the interval: &gt; 2
+! MENU_INFO !
+&gt; 1
+Input road name: &gt; RoadA 
+RoadA Added!
+&gt; 
+! MENU_INFO !
+&gt; 1
+Input road name: &gt; RoadB 
+RoadB Added!
+&gt; 
+! MENU_INFO !
+&gt; 1
+Input road name: &gt; RoadC 
+<strong>Queue is full</strong>
+&gt; 
+! MENU_INFO !
+&gt; 3
+! THREAD_INFO_HEADER !
+
+RoadA
+RoadB
+
+! THREAD_INFO_FOOTER !
+&gt;
+! MENU_INFO !
+&gt; 2
+RoadA deleted!
+&gt;
+! MENU_INFO !
+&gt; 2
+RoadB deleted!
+&gt;
+! MENU_INFO !
+&gt; 3
+! THREAD_INFO_HEADER !
+
+
+! THREAD_INFO_FOOTER !
+&gt;
+! MENU_INFO !
+&gt; 2
+<strong>Queue is empty</strong>
+&gt;
+! MENU_INFO !
+&gt; 1
+Input road name: &gt; RoadD 
+RoadD Added!
+&gt; 
+! MENU_INFO !
+&gt; 3
+! THREAD_INFO_HEADER !
+
+RoadD
+
+! THREAD_INFO_FOOTER !
+&gt;
+! MENU_INFO !
+&gt; 0
+Bye!</code></pre>
+</details>
+</div>
